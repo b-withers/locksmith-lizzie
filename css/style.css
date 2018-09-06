@@ -2,7 +2,7 @@
 Assan Multipurpose landing template stylesheet
 */
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700");
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700");
 @font-face {
   font-family: 'FontAwesome';
   src: url("../bower_components/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0");
@@ -49,10 +49,11 @@ a {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  font-family: "Rubik", sans-serif;
-  font-weight: 400;
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
   line-height: 1.3;
-  color: #00363d; }
+  color: #00363d;
+  letter-spacing: 1px; }
 
 h1, .h1 {
   font-size: 55px; }
@@ -67,16 +68,16 @@ h4, .h4 {
   font-size: 22px; }
 
 h5, .h5 {
-  font-size: 18px; }
+  font-size: 20px; }
 
 h6, .h6 {
   font-size: 15px;
   font-weight: 400; }
 
 .title-font {
-  font-size: 3.4rem;
-  letter-spacing: -2px;
-  font-weight: 300; }
+  font-size: 40px;
+  line-height: 42px;
+  font-weight: 600; }
 
 .border-btm1 .container {
   position: relative; }
@@ -464,8 +465,60 @@ strong, b {
     border: 0px;
     box-shadow: 0 8px 23px rgba(0, 0, 0, 0.18); }
 
-.custom-control-indicator {
-  top: .35rem; }
+.custom-checkbox {
+  display: inline-block;
+  padding-left: 34px;
+  position: relative;
+  cursor: pointer; }
+  .custom-checkbox .custom-control-indicator {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    left: 0;
+    top: 2px;
+    border-radius: 4px;
+    border: 1px solid rgba(74, 144, 226, 0.5); }
+    .custom-checkbox .custom-control-indicator:before {
+      content: "\e934";
+      position: absolute;
+      left: -1px;
+      top: 0;
+      font-size: 12px;
+      border-radius: 4px;
+      width: 22px;
+      height: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #4a90e2;
+      font-weight: normal;
+      line-height: 1;
+      font-family: 'linearicons';
+      transform: scale(0.5);
+      -webkit-transform: scale(0.5);
+      opacity: 0;
+      transition: all .3s;
+      -webkit-transition: all .3s; }
+  .custom-checkbox input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px; }
+  .custom-checkbox input:checked + .custom-control-indicator:before {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    opacity: 1; }
+
+.bg-parallax .custom-checkbox .custom-control-indicator, .bg-dark .custom-checkbox .custom-control-indicator, .bg-primary .custom-checkbox .custom-control-indicator, .hero-form .custom-checkbox .custom-control-indicator {
+  border-color: rgba(255, 255, 255, 0.75); }
+  .bg-parallax .custom-checkbox .custom-control-indicator:before, .bg-dark .custom-checkbox .custom-control-indicator:before, .bg-primary .custom-checkbox .custom-control-indicator:before, .hero-form .custom-checkbox .custom-control-indicator:before {
+    color: white; }
+
+.bg-parallax .custom-control-description, .bg-dark .custom-control-description, .bg-primary .custom-control-description, .hero-form .custom-control-description {
+  color: #fff; }
 
 /*
 Preloader style
@@ -999,10 +1052,11 @@ Header style
   position: relative; }
 
 .navbar .navbar-nav .nav-link {
-  text-transform: capitalize;
-  font-weight: 400;
-  font-size: .95rem;
-  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .8rem;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
   border-top: 2px solid transparent;
   cursor: pointer; }
 
@@ -1026,6 +1080,8 @@ Header style
     .navbar-expand-lg.navbar .navbar-nav .nav-item {
       padding-left: 1rem;
       padding-right: 1rem; }
+      .navbar-expand-lg.navbar .navbar-nav .nav-item:last-child {
+        padding-right: 0px; }
     .navbar-expand-lg.navbar .navbar-nav .nav-link {
       padding-top: 1.3rem;
       padding-bottom: 1.3rem;
@@ -1118,8 +1174,10 @@ Parallax backgrounds
   background: linear-gradient(215deg, #4a90e2 0%, #9c51f5 70%, #b88ee7 100%);
   background: -webkitlinear-gradient(215deg, #4a90e2 0%, #9c51f5 70%, #b88ee7 100%); }
   .gradient-bg-hero h3.h1 {
-    font-family: "Rubik", sans-serif;
-    font-weight: 900;
+    font-family: "Dosis", sans-serif;
+    font-size: 60px;
+    line-height: 51px;
+    font-weight: 600;
     text-transform: capitalize; }
   .gradient-bg-hero .container {
     position: relative;
@@ -1130,10 +1188,11 @@ Parallax backgrounds
   padding-top: 13rem;
   position: relative;
   overflow: hidden;
-  z-index: 3; }
+  z-index: 1; }
   .parallax-hero .title-font {
-    font-size: 3rem;
-    font-weight: 300; }
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400; }
   .parallax-hero .parallax-overlay {
     z-index: 4; }
   .parallax-hero .container {
@@ -1157,10 +1216,13 @@ Parallax backgrounds
       vertical-align: middle;
       z-index: 5;
       position: relative; }
-  .parallax-fullscreen h3.h1 {
-    padding-top: 150px; }
+  .parallax-fullscreen .title-font {
+    padding-top: 150px;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 500; }
   .parallax-fullscreen .parallax-overlay {
-    opacity: 0.5; }
+    opacity: 0.9; }
 
 .hero-form {
   padding: 40px 20px;
@@ -1191,7 +1253,7 @@ Cards features,  icons, images, teams etc.
   padding-bottom: 20px;
   margin-bottom: 30px;
   text-transform: capitalize;
-  font-size: 1rem; }
+  font-size: 1.25rem; }
   .feature-icon h4:after {
     content: "";
     width: 40px;
@@ -1217,9 +1279,9 @@ Pricing tables
   .pricing-card .price-value {
     padding: 25px 20px;
     background-color: rgba(34, 35, 45, 0.01);
-    font-size: 75px;
+    font-size: 40px;
     line-height: 1;
-    font-weight: 800;
+    font-weight: 700;
     color: #4a90e2; }
     .pricing-card .price-value sup {
       font-size: 13px;
@@ -1237,6 +1299,7 @@ Pricing tables
     margin: 0px; }
     .pricing-card ul.list-unstyled li {
       position: relative;
+      text-transform: capitalize;
       padding-left: 10px;
       padding-bottom: 7px;
       text-align: center;
@@ -1338,10 +1401,10 @@ Clients & reviews
       margin-bottom: 15px; }
     .client-reviews-card .client-reviews-author h5 {
       text-transform: capitalize;
-      font-weight: 700;
+      font-weight: 500;
       letter-spacing: 0px;
       margin-bottom: 0px;
-      font-size: 15px; }
+      font-size: 1.25rem; }
     .client-reviews-card .client-reviews-author span {
       color: #4a90e2;
       font-size: 12px;
@@ -1383,7 +1446,7 @@ Parallax backgrounds
   bottom: 0;
   right: 0;
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.5;
   z-index: 1; }
 
 /*
@@ -1470,7 +1533,10 @@ Footer style
     background-image: none;
     border: 0px;
     padding: 0px;
-    top: 0; }
+    top: 1px;
+    width: 40px;
+    height: 36px;
+    line-height: 1; }
     .navbar-toggler .navbar-toggler-icon {
       background-image: none; }
       .navbar-toggler .navbar-toggler-icon:after {

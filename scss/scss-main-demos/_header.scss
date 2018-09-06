@@ -7,10 +7,11 @@ Header style
 }
 }
 .navbar .navbar-nav .nav-link{
-    text-transform: capitalize;
-    font-weight: 400;
-    font-size: .95rem;
-    font-family: $title-font;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    font-family: $base-font;
     border-top: 2px solid transparent;
     cursor: pointer;
 }
@@ -38,6 +39,9 @@ Header style
             .nav-item{
                 padding-left: 1rem;
                 padding-right:1rem;
+                &:last-child{
+                    padding-right: 0px;
+                }
             }
                 .nav-link{
             padding-top: 1.3rem;

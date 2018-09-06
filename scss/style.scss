@@ -9,7 +9,7 @@ Assan Multipurpose landing template stylesheet
     font-style: normal;
 }
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700');
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700');
 @import "scss-main-demos/_variables.scss";
 @import "scss-main-demos/_base.scss";
 @import "scss-main-demos/_preloader.scss";
@@ -49,11 +49,14 @@ Assan Multipurpose landing template stylesheet
     }
     .navbar-toggler{
         position: absolute;
-        right:15px;
-        background-image: none;
-        border:0px;
-        padding:0px;
-        top:0;
+    right: 15px;
+    background-image: none;
+    border: 0px;
+    padding: 0px;
+    top: 1px;
+    width: 40px;
+    height: 36px;
+    line-height: 1;
         .navbar-toggler-icon{
             background-image: none;
             &:after{

@@ -11,7 +11,9 @@ Parallax backgrounds
     background: -webkitlinear-gradient(215deg, $primary-color 0%, rgb(156, 81, 245) 70%, rgb(184, 142, 231) 100%);
     h3.h1{
         font-family: $title-font;
-        font-weight: 900;
+            font-size: 60px;
+    line-height: 51px;
+    font-weight: 600;
         text-transform: capitalize;
     }
     .container{
@@ -26,8 +28,9 @@ Parallax backgrounds
     overflow: hidden;
     z-index: 3;
     .title-font{
-        font-size:3rem;
-        font-weight:300;
+          font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
     }
     .parallax-overlay{
         z-index: 4;
@@ -56,11 +59,14 @@ Parallax backgrounds
             position: relative;
         }
     }
-    h3.h1{
+    .title-font{
         padding-top: 150px;
+           font-size: 60px;
+    line-height: 60px;
+    font-weight: 500;
     }
     .parallax-overlay{
-        opacity: 0.5;
+        opacity: 0.9;
     }
 }
 .hero-form{

@@ -10,9 +10,11 @@ Parallax backgrounds
     background: linear-gradient(215deg, $primary-color 0%, rgb(156, 81, 245) 70%, rgb(184, 142, 231) 100%);
     background: -webkitlinear-gradient(215deg, $primary-color 0%, rgb(156, 81, 245) 70%, rgb(184, 142, 231) 100%);
     h3.h1{
-        font-family: $title-font;
-        font-weight: 900;
-        text-transform: capitalize;
+             font-weight:400;
+    color:#444;
+    font-size: 44px;
+    line-height: 1.3;
+    font-family: $base-font;
     }
 }
 .hero-gradient-dark{
@@ -21,7 +23,7 @@ Parallax backgrounds
     position: relative;
     z-index: 3;
     h3{
-            font-weight:300;
+            font-weight:400;
     color:#444;
     font-size: 44px;
     line-height: 1.3;

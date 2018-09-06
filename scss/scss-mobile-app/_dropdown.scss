@@ -13,11 +13,11 @@ Dropdown menu styles
     margin:0px;
 }
 .dropdown-menu .dropdown-item{
-    font-weight:400;
-    font-size: .9rem;
+    font-weight:500;
+    font-size: .8rem;
     color:#333c4e;
     font-family: $base-font;
-    text-transform:capitalize;
+    text-transform:uppercase;
     &:hover,&:focus,&:active{
         color:rgba($primary-color,1);
         background-color: transparent;

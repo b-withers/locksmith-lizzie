@@ -8,6 +8,8 @@ Project - Classic landing onepage template
     font-weight: normal;
     font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700');
 @import "scss-minimal-flat/_variables.scss";
 @import "scss-minimal-flat/_base.scss";
 @import "scss-minimal-flat/_buttons.scss";
@@ -36,14 +38,39 @@ Project - Classic landing onepage template
         padding: .7rem 1rem;
         border-bottom:1px solid #eee;
         .navbar-toggler{
-            position:absolute;
-            top:5px;
-            right:15px;
-            background-color:transparent;
-            border-radius:0px;
-            -webkit-border-radius:0px;
-            padding:0px;
-            border:0px;
+             position: absolute;
+    right: 15px;
+    background-image: none;
+    border: 0px;
+    padding: 0px;
+    top: 1px;
+    width: 40px;
+    height: 36px;
+    line-height: 1;
+     .navbar-toggler-icon{
+            background-image: none;
+            &:after{
+                font-family: 'Linearicons';
+                content: "\e92b";
+                position: absolute;
+                right:0;
+                font-size: 2em;
+                top:0px;
+                transition: all .3s;
+                -webkit-transition: all .3s;
+                color:#000;
+                cursor: pointer;
+            }
+        }
+        }
+    }
+    .navbar.navbar-expand-lg {
+        .nav-link.btn{
+            margin-left:0px;
+        }
+        .navbar-collapse{
+            height: 230px;
+            overflow-y: scroll;
         }
     }
     .hero-section{

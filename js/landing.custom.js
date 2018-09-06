@@ -50,7 +50,7 @@ $(function () {
         selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
         speed: 800, // Integer. How fast to complete the scroll in milliseconds
         easing: 'easeInOutCubic', // Easing pattern to use
-        offset: 71, // Integer. How far to offset the scrolling anchor location in pixels
+        offset: 68, // Integer. How far to offset the scrolling anchor location in pixels
         callback: function (anchor, toggle) {} // Function to run after scrolling
     });
     /**youtube video popup**/

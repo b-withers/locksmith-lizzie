@@ -7,9 +7,9 @@ Header style
     }
 }
 .navbar .navbar-nav .nav-link{
-    text-transform: capitalize;
-    font-weight:400;
-    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight:600;
+    font-size: .8rem;
     font-family: $title-font;
     border-top: 2px solid transparent;
     cursor: pointer;

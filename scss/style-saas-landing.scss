@@ -8,7 +8,8 @@ Assan saas web app landing template stylesheet
     font-weight: normal;
     font-style: normal;
 }
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700');
 @import "scss-saas-software/_variables.scss";
 @import "scss-saas-software/_base.scss";
 @import "scss-saas-software/_preloader.scss";
@@ -30,12 +31,15 @@ Assan saas web app landing template stylesheet
     padding-top: 4rem;
 }
 .navbar-toggler{
-        position: absolute;
-        right:15px;
-        background-image: none;
-        border:0px;
-        padding:0px;
-        top:0;
+         position: absolute;
+    right: 15px;
+    background-image: none;
+    border: 0px;
+    padding: 0px;
+    top: 1px;
+    width: 40px;
+    height: 36px;
+    line-height: 1;
         .navbar-toggler-icon{
             background-image: none;
             &:after{

@@ -14,9 +14,9 @@ Pricing tables
     .price-value{
         padding:25px 20px;
         background-color:rgba($dark-color,.01);
-        font-size:75px;
+        font-size:40px;
         line-height: 1;
-        font-weight:800;
+        font-weight:700;
         color:$primary-color;
         sup{
             font-size: 13px;
@@ -37,6 +37,7 @@ Pricing tables
         margin:0px;
         li{
             position: relative;
+            text-transform: capitalize;
             padding-left: 10px;
             padding-bottom:7px;
             text-align:center;
