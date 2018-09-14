@@ -64,7 +64,7 @@ hr {
 
 .full-width-section {
   padding: 100px 0;
-  background-color: #406da4;
+  background-color: rgb(165, 0, 100);
 }
 
 .layout-boxed .wrapper {
@@ -84,7 +84,7 @@ hr {
 .section-heading:after {
   display: block;
   content: '......';
-  color: #406da4;
+  color: rgb(165, 0, 100);
   font-weight: 300;
 }
 .section-heading.panel-title:after {
@@ -5089,7 +5089,7 @@ div[class*="col-"] > .form-group {
   padding: 10px;
   width: 60px;
   height: 60px;
-  background: #406da4;
+  background: rgb(165, 0, 100);
   color: #fff;
   text-align: center;
   line-height: 40px;
