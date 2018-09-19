@@ -23,9 +23,9 @@ var dealers = [{
 	},
 
 	{
-		name: 'sewing company',
-		address: 'sewing company lane',
-		phoneNumber: '1800-523-1235'
+		name: "Bob's Sewing and Vacuum",
+		address: '3551 Hwy 528 NW Albequerque, NM 87114',
+		phoneNumber: '1-505-897-9782'
 	},
 
 	{
@@ -35,7 +35,7 @@ var dealers = [{
 	}
 ];
 
-var info = "<div class='container col-md-7 col-sm-7 col-lg-7'> <h2 class='text-center'>LockSmith Lizzie Dealers</h2> <table class ='table table-striped table-bordered table-hover'> <tr> <th class='text-center'>Name</th> <th class='text-center'>Address</th> <th class='text-center'>Phone Number</th> </tr> </div>"
+var info = "<div class='container col-md-7 col-sm-7 col-lg-7'> <h1 class='text-center'>LockSmith Lizzie Dealers</h1> <table class ='table table-striped table-bordered table-hover'> <tr> <th class='text-center'>Name</th> <th class='text-center'>Address</th> <th class='text-center'>Phone Number</th> </tr> </div>"
 
 
 
