@@ -1,6 +1,6 @@
 var dealers = [{
 		name: 'Above and Beyond',
-		address: '38 N Middletown Rd Nanuet, NY 10954',
+		address: '38 N Middletown Rd Nanuet NY 10954',
 		phoneNumber: '1-845-623-4313'
 	},
 
@@ -11,15 +11,15 @@ var dealers = [{
 	},
 
 	{
-		name: 'sewing company',
-		address: 'sewing company lane',
-		phoneNumber: '1800-523-1235'
+		name: 'Anderson Sewing Center',
+		address: '151 Victoria St Kamloops BC V2C 1Z4',
+		phoneNumber: '1-250-374-1154'
 	},
 
 	{
-		name: 'sewing company',
-		address: 'sewing company lane',
-		phoneNumber: '1800-523-1235'
+		name: 'Bearly Thread Quilting',
+		address: '47027 Belmont Court Kenai AK 99611',
+		phoneNumber: '1-907-631-8129'
 	},
 
 	{
