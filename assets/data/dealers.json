@@ -1,0 +1,42 @@
+"dealers": [
+	{
+			"name": "Above and Beyond",
+			"address": "38 N Middletown Rd, Nanuet, NY 10954",
+			"phone_number": "845-623-4313",
+	},
+	{
+		"name": "Russ Waters",
+		"address": "russ@russwaters.com",
+		"phone_number": "russwaters.com",
+	},
+	{
+		"name": "Russ Waters",
+		"address": "russ@russwaters.com",
+		"phone_number": "russwaters.com",
+	},
+	{
+			"name": "Russ Waters",
+			"address": "russ@russwaters.com",
+			"phone_number": "russwaters.com",
+	},
+	{
+		"name": "Russ Waters",
+		"address": "russ@russwaters.com",
+		"phone_number": "russwaters.com",
+	},
+	{
+		"name": "Russ Waters",
+		"address": "russ@russwaters.com",
+		"phone_number": "russwaters.com",
+	},
+	{
+		"name": "Russ Waters",
+		"address": "russ@russwaters.com",
+		"phone_number": "russwaters.com",
+	},
+	{
+		"name": "Russ Waters",
+		"address": "russ@russwaters.com",
+		"phone_number": "russwaters.com",
+	}
+];
