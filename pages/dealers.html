@@ -60,55 +60,70 @@
 	<!-- END MAIN NAVIGATION -->
 
 
-	<div class="container">
-		<div class="container col-md-5 col-sm-5" id="map"></div>
-		<script>
-			var map;
+<div class="container">
+	<div class="container col-md-5 col-sm-5" id="map"> </div>
+	
 
-			function initMap() {
-				map = new google.maps.Map(document.getElementById('map'), {
-					center: {
-						lat: 37.090,
-						lng: -95.712891
-					},
-					zoom: 3.5
-				});
+	
+	<script>
+		var map;
 
-				var marker = new google.maps.Marker({
-					position: AboveAndBeyond,
-					map: map,
-					title: 'Above and Beyond'
-				});
+		function initMap() {
+			map = new google.maps.Map(document.getElementById('map'), {
+				center: {
+					lat: 37.090,
+					lng: -95.712891
+				},
+				zoom: 3.5
+			});
 
-				var marker = new google.maps.Marker({
-					position: AceSewing,
-					map: map,
-					title: 'Ace Sewing and Vacuum'
-				});
+			var marker = new google.maps.Marker({
+				position: AboveAndBeyond,
+				map: map,
+				title: 'Above and Beyond'
+			});
 
-				var marker = new google.maps.Marker({
-					position: AndersonSewingCenter,
-					map: map,
-					title: 'Anderson Sewing Center'
-				});
-			}
-		</script>
+			var marker = new google.maps.Marker({
+				position: AceSewing,
+				map: map,
+				title: 'Ace Sewing and Vacuum'
+			});
+
+			var marker = new google.maps.Marker({
+				position: AndersonSewingCenter,
+				map: map,
+				title: 'Anderson Sewing Center'
+			});
+		}
+	</script>
+
+<footer class="footer col-lg-12">
+	<div class="container-fluid col-lg-12 text-center">
+		
+	<!-- COPYRIGHT -->
+	
+		&copy;BW Sterling Development & Design
+
+		</div>
+	
+	<!-- END COPYRIGHT -->
+</footer>
+<!-- END FOOTER -->
 
 
-
-		<!--google maps api-->
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWTbBCot-6Xu5wbRFp0xsXHbiIktoLGXw&callback=initMap"
-		 async defer></script>
-		<!-- JAVASCRIPTS -->
-		<script src="../assets/js/dealers.js"></script>
-		<script src="../assets/js/maps.js"></script>
-		<script src="../assets/js/jquery-2.1.1.min.js"></script>
-		<script src="../assets/js/bootstrap.min.js"></script>
-		<script src="../assets/js/plugins/slick/slick.min.js"></script>
-		<script src="../assets/js/plugins/stellar/jquery.stellar.min.js"></script>
-		<script src="../assets/js/plugins/jquery-easypiechart/jquery.easypiechart.min.js"></script>
-		<script src="../assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
-		<script src="../assets/js/repute-scripts.js"></script>
+	<!--google maps api-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWTbBCot-6Xu5wbRFp0xsXHbiIktoLGXw&callback=initMap"
+	 async defer></script>
+	<!-- JAVASCRIPTS -->
+	<script src="../assets/js/dealers.js"></script>
+	<script src="../assets/js/maps.js"></script>
+	<script src="../assets/js/jquery-2.1.1.min.js"></script>
+	<script src="../assets/js/bootstrap.min.js"></script>
+	<script src="../assets/js/plugins/slick/slick.min.js"></script>
+	<script src="../assets/js/plugins/stellar/jquery.stellar.min.js"></script>
+	<script src="../assets/js/plugins/jquery-easypiechart/jquery.easypiechart.min.js"></script>
+	<script src="../assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
+	<script src="../assets/js/repute-scripts.js"></script>
 
 
 
