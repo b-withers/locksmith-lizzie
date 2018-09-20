@@ -77,12 +77,12 @@
 				});
 
 
-				console.log(dealers);
-				for(var i=0; i<dealers.length; i++){
+				console.log(dealerscord);
+				for(var i=0; i<dealerscord.length; i++){
 					var marker = new google.maps.Marker({
-						position: dealers[i].cords,
+						position: dealerscord[i].cords,
 						map: map,
-						title: dealers[i].name
+						title: dealerscord[i].name
 					});
 				}
 			}
