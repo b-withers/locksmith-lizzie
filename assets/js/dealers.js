@@ -46,3 +46,35 @@ for (var i = 0; i < dealers.length; i++) {
 info += "</table>";
 
 document.write(info);
+
+var dealers = [{
+	name: "Above and Beyond",
+	cords: {
+		lat: 41.0996676,
+		lng: -74.0127113
+	}
+},
+
+{
+	name: "Ace Sewing Center",
+	cords: {
+		lat: 45.3030876,
+		lng: -122.9582768
+	}
+},
+
+{
+	name: "Anderson Sewing Center",
+	cords: {
+		lat: 50.675931,
+		lng: -120.3396706
+	}
+},
+{
+	name: "Clay's Bachata Haus",
+	cords: {
+		lat: 47.675931,
+		lng: -100.3396706
+	}
+},
+];

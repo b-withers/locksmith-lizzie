@@ -76,23 +76,15 @@
 					zoom: 3.5
 				});
 
-				var marker = new google.maps.Marker({
-					position: AboveAndBeyond,
-					map: map,
-					title: 'Above and Beyond'
-				});
 
-				var marker = new google.maps.Marker({
-					position: AceSewing,
-					map: map,
-					title: 'Ace Sewing and Vacuum'
-				});
-
-				var marker = new google.maps.Marker({
-					position: AndersonSewingCenter,
-					map: map,
-					title: 'Anderson Sewing Center'
-				});
+				console.log(dealers);
+				for(var i=0; i<dealers.length; i++){
+					var marker = new google.maps.Marker({
+						position: dealers[i].cords,
+						map: map,
+						title: dealers[i].name
+					});
+				}
 			}
 		</script>
 
@@ -117,7 +109,6 @@
 		<script src="../assets/js/bootstrap.min.js"></script>
 		<script src="../assets/js/plugins/slick/slick.min.js"></script>
 		<script src="../assets/js/plugins/stellar/jquery.stellar.min.js"></script>
-		<script src="../assets/js/plugins/jquery-easypiechart/jquery.easypiechart.min.js"></script>
 		<script src="../assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
 		<script src="../assets/js/repute-scripts.js"></script>
 
