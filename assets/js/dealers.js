@@ -56,7 +56,20 @@ var dealers = [{
 		name: 'Pumpkin Ridge Quilting',
 		address: '101 S Main Hennessey, OK 73742',
 		phoneNumber: '1-740-596-2345'
-	}
+	},
+
+	{
+		name: 'Quilt Patch',
+		address: '2221 Jacksboro Pike # C4, LaFollette, TN 37766',
+		phoneNumber: '1-423-562-4420'
+	},
+
+	{
+		name: 'Rainbow Service',
+		address: '2420 6th Ave S, Great Falls, MT 59405',
+		phoneNumber: '1-406-453-4830'
+	},
+
 ];
 
 var info = "<div class='container col-md-7 col-sm-7 col-lg-7'> <h1 class='text-center'>LockSmith Lizzie Dealers</h1> <table class ='table table-striped table-bordered table-hover'> <tr> <th class='text-center'>Name</th> <th class='text-center'>Address</th> <th class='text-center'>Phone Number</th> </tr> </div>";
@@ -148,5 +161,21 @@ var dealerscord = [{
 			lng: -82.4820741
 		}
 	},
+
+	{
+		name: "Quilt Patch",
+		cords: {
+			lat: 36.3470438,
+			lng: -84.161348
+		}
+	},
+
+	{
+		name: "Rainbow Service",
+		cords: {
+			lat: 47.498208,
+			lng: -111.2669607
+		}
+	}
 
 ];
