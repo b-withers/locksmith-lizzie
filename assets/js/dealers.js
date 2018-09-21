@@ -44,6 +44,18 @@ var dealers = [{
 		name: 'Pieced Together Studio',
 		address: '205 W Main Mesquite, TX 75149',
 		phoneNumber: '1-972-270-0961'
+	},
+
+	{
+		name: 'Prairie Quilts',
+		address: '118 W Main St, McArthur, OH 45651',
+		phoneNumber: '1-405-853-6801'
+	},
+
+	{
+		name: 'Pumpkin Ridge Quilting',
+		address: '101 S Main Hennessey, OK 73742',
+		phoneNumber: '1-740-596-2345'
 	}
 ];
 
@@ -118,6 +130,22 @@ var dealerscord = [{
 		cords: {
 			lat: 32.767008,
 			lng: -96.6026727
+		}
+	},
+
+	{
+		name: "Prairie Quilts",
+		cords: {
+			lat: 36.109296,
+			lng: -97.9007437
+		}
+	},
+
+	{
+		name: "Pumpkin Ridge Quilting",
+		cords: {
+			lat: 39.2463344,
+			lng: -82.4820741
 		}
 	},
 
