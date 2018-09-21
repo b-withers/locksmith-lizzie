@@ -12,14 +12,16 @@
 	<link href="../assets/css/my-custom-styles.css" rel="stylesheet" type="text/css">
 	<!-- GOOGLE FONTS -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400italic,700,400,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400italic,700,400,300' rel='stylesheet'
+	 type='text/css'>
 	<!-- FAVICONS -->
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/repute144x144.png">
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/repute114x114.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/repute72x72.png">
 	<link rel="apple-touch-icon-precomposed" href="assets/ico/repute57x57.png">
 	<link rel="shortcut icon" href="assets/ico/favicon-96x96.png">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
 
 </head>
 
@@ -43,34 +45,103 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
 							<a href="../index.html">HOME</a>
-						</li>	
+						</li>
 						<li class="dropdown">
 							<a href="products.html">PRODUCTS</a>
 						</li>
 						<li class="dropdown">
-							<a href="dealers.html">DEALERS</a>							
+							<a href="dealers.html">DEALERS</a>
 						</li>
 						<li class="dropdown">
 							<a href="shows.html">SHOWS</a>
 						</li>
 						<li class="dropdown active">
-							<a href="contact.html">CONTACT US</a>			
+							<a href="contact.html">CONTACT US</a>
 						</li>
 					</ul>
 				</div>
 				<!-- END MAIN NAVIGATION -->
 			</div>
 		</nav>
+		<br>
+		<br>
+		<div class="container">
+		<form id="contact-form" method="post" action="contact.php" role="form">
 
+			<div class="messages"></div>
+
+			<div class="controls">
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="form_name">Firstname *</label>
+							<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *"
+							 required="required" data-error="Firstname is required.">
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="form_lastname">Lastname *</label>
+							<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *"
+							 required="required" data-error="Lastname is required.">
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="form_email">Email *</label>
+							<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *"
+							 required="required" data-error="Valid email is required.">
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for="form_need">Where was Machine Purchased</label>
+							<select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+								<option value=""></option>
+								<option value="Request quotation">Request quotation</option>
+								<option value="Request order status">Request order status</option>
+								<option value="Request copy of an invoice">Request copy of an invoice</option>
+								<option value="Other">Other</option>
+							</select>
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="form_message">Message *</label>
+							<textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"
+							 data-error="Please, leave us a message."></textarea>
+							<div class="help-block with-errors"></div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<input type="submit" class="btn btn-success btn-send" value="Send message">
+					</div>
+				</div>
+				
+				
+
+			</div>
+
+		</form>
+		</div>
 
 
 
 
 		<!-- JAVASCRIPTS -->
-	<script src="../assets/js/jquery-2.1.1.min.js"></script>
-	<script src="../assets/js/bootstrap.min.js"></script>
-	<script src="../assets/js/plugins/slick/slick.min.js"></script>
-	<script src="../assets/js/plugins/stellar/jquery.stellar.min.js"></script>
-	<script src="../assets/js/plugins/jquery-easypiechart/jquery.easypiechart.min.js"></script>
-	<script src="../assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
-	<script src="../assets/js/repute-scripts.js"></script>
+		<script src="../assets/js/jquery-2.1.1.min.js"></script>
+		<script src="../assets/js/bootstrap.min.js"></script>
+		<script src="../assets/js/plugins/slick/slick.min.js"></script>
+		<script src="../assets/js/plugins/stellar/jquery.stellar.min.js"></script>
+		<script src="../assets/js/plugins/jquery-easypiechart/jquery.easypiechart.min.js"></script>
+		<script src="../assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
+		<script src="../assets/js/repute-scripts.js"></script>

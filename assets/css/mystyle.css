@@ -8,13 +8,30 @@
 	margin-bottom: 10px;
 }
 
-.footer{
+/* .footer{
 	position: fixed;
-	left: 0;
-    bottom: 0;
-}
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+} */
 
 .dealhead{
 	color: rgb(165, 0, 100);
 	font-weight: bold;
 }
+
+html { 
+	height: 100%; 
+	} 
+	body { 
+	position: relative; 
+	min-height: 100%; 
+	} 
+	.footer {
+	position: fixed;
+	bottom: 0;
+	background-color: gray;
+	}
