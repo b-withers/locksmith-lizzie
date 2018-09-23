@@ -23,6 +23,10 @@
 	font-weight: bold;
 }
 
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: red;
+}
+
 html { 
 	height: 100%; 
 	} 
