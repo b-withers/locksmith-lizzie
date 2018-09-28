@@ -23,6 +23,10 @@
 	font-weight: bold;
 }
 
+.headtext{
+	text-shadow: 2px 2px black;
+}
+
 .red .active a,
 .red .active a:hover {
 	background-color: rgb(165, 0, 100) !important;
