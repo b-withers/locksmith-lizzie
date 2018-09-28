@@ -4150,6 +4150,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   overflow: hidden;
 }
 .hero-unit-slider .carousel-caption {
+  padding-top: 6%;
   bottom: inherit;
   top: 8em;
   text-shadow: none;
