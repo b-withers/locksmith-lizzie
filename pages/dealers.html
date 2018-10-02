@@ -78,20 +78,20 @@
 
 				
 				console.log(dealerscord);
+				var marker = []
 				for(var i=0; i<dealerscord.length; i++){
-					var marker = new google.maps.Marker({
+					marker.push( new google.maps.Marker({
 						position: dealerscord[i].cords,
 						map: map,
 						title: dealerscord[i].name
-					});
-
-				// 	marker.addListener('click', function() {
-        //   map.setZoom(8);
-        //   map.setCenter(marker.getPosition());
-        // });
+					}));
 				}
-
-				
+				for(let i=0; i<marker.length; i++){
+					marker[i].addListener('click', function() {
+						map.setZoom(16);
+						map.setCenter(marker[i].getPosition());
+					});
+				}
 			}
 		</script>
 
