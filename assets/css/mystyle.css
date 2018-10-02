@@ -3,6 +3,11 @@
 	
 }
 
+#click-me{
+	position: absolute;
+	z-index: 100;
+}
+
 
 .navbar{
 	margin-bottom: 10px;

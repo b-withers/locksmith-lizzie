@@ -41,7 +41,7 @@ var dealers = [{
 	},
 
 	{
-		name: 'Orgeon Quilt Woman',
+		name: 'Oregon Quilt Woman',
 		address: '880 Railroad Ave Ontario OR 97914',
 		phoneNumber: '541-881-1160'
 	},
