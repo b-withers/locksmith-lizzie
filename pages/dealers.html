@@ -126,6 +126,14 @@
 					}
 				}
 			})
+			$(document).on('touchstart', '.dealer-name', function(){
+				for(var i=0; i<marker.length; i++){
+					if(marker[i].title === $(this).text()){
+						google.maps.event.trigger(marker[i], 'click');
+						return
+					}
+				}
+			})
 
 		</script>
 		<script src="../assets/js/jquery-2.1.1.min.js"></script>
