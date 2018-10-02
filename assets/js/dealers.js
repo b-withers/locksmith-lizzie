@@ -17,7 +17,7 @@ var dealers = [{
 	},
 
 	{
-		name: 'Bearly Thread Quilting',
+		name: 'Bearly Threaded Quilting',
 		address: '47027 Belmont Court Kenai AK 99611',
 		phoneNumber: '907-631-8129'
 	},
@@ -78,7 +78,7 @@ var dealers = [{
 
 ];
 
-var info = "<div class='container col-md-12 col-sm-12 col-lg-12' id='dealer-table'>  <table class ='table table-striped table-bordered table-hover'> <tr> <th class='text-center'>Name</th> <th class='text-center'>Address</th> <th class='text-center'>Phone Number</th> </tr> </div>";
+var info = "<div class='container col-md-7 col-sm-7 col-lg-7' id='dealer-table'>  <table class ='table table-striped table-bordered table-hover'> <tr> <th class='text-center'>Name</th> <th class='text-center'>Address</th> <th class='text-center'>Phone Number</th> </tr> </div>";
 
 for (var i = 0; i < dealers.length; i++) {
 	info += "<tr><td class='dealer-name'>" + dealers[i].name + "</td><td>" + dealers[i].address + "</td><td>" + dealers[i].phoneNumber + "</td></tr>";
