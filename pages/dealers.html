@@ -19,14 +19,11 @@
 	<!--FONT AWESOME-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 	 crossorigin="anonymous">
-	 <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	 crossorigin="anonymous"></script>
 </head>
 
 <body>
-
 	<!-- NAVBAR -->
 	<nav class="navbar navbar-default " role="navigation">
 		<div class="container">
@@ -62,14 +59,9 @@
 		</div>
 	</nav>
 	<!-- END MAIN NAVIGATION -->
-
 	<div class="container">
-		
-		<h1 class='text-center dealhead'> LockSmith Lizzie Dealers</h1>
-		
+		<h1 class='text-center dealhead'>LockSmith Lizzie Dealers</h1>
 		<div class="container col-md-5 col-sm-5" id="map"> </div>
-
-
 
 		<script>
 			var map;
@@ -83,9 +75,6 @@
 					},
 					zoom: 3.0
 				});
-
-
-				console.log(dealerscord);
 				for (var i = 0; i < dealerscord.length; i++) {
 					marker.push(new google.maps.Marker({
 						position: dealerscord[i].cords,
@@ -95,21 +84,12 @@
 				}
 				for (let i = 0; i < marker.length; i++) {
 					marker[i].addListener('click', function () {
-						map.setZoom(16);
+						map.setZoom(15);
 						map.setCenter(marker[i].getPosition());
 					});
 				}
-				console.log(marker);
-				// google.maps.event.trigger(marker[5], 'click');
 			}
 		</script>
-
-
-
-		<!-- <div class=" container footer">
-			<p>always on bottom</p>
-		</div> -->
-
 
 		<!--google maps api-->
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWTbBCot-6Xu5wbRFp0xsXHbiIktoLGXw&callback=initMap"
@@ -138,17 +118,18 @@
 			})
 
 		</script>
-<div class="container col-lg-12">
-<input class="float-left" id="clickMe" type="button" value="All Dealers" onclick="initMap();"/>
-</div>
+
+		<div class="container col-lg-12">
+			<input class="float-left" id="clickMe" type="button" value="All Dealers" onclick="initMap();" />
+			<br>
+		</div>
+
 		<script src="../assets/js/jquery-2.1.1.min.js"></script>
 		<script src="../assets/js/bootstrap.min.js"></script>
 		<script src="../assets/js/plugins/slick/slick.min.js"></script>
 		<script src="../assets/js/plugins/stellar/jquery.stellar.min.js"></script>
 		<script src="../assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
 		<script src="../assets/js/repute-scripts.js"></script>
-
-
 
 </body>
 
