@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
 #map {
 	min-height: 496px;
 	
@@ -28,6 +30,14 @@
 
 .headtext{
 	text-shadow: 2px 2px black;
+}
+
+.subtext{
+	font-family: 'Great Vibes', cursive;
+	text-shadow: 1px 1px black;
+	font-size: 37px;
+	line-height: 1;
+
 }
 
 .red .active a,

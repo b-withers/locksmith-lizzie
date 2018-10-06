@@ -1,54 +1,54 @@
 var dealers = [{
 		name: 'Above and Beyond',
-		address: '38 N Middletown Rd Nanuet NY 10954',
+		address: '38 N Middletown Rd, Nanuet, NY 10954',
 		phoneNumber: '845-623-4313'
 	},
 
 	{
 		name: 'Ace Sewing and Vacuum',
-		address: '2414 Portland Rd Suite 1 Newberg, OR 97132',
+		address: '2414 Portland Rd, Suite 1, Newberg, OR 97132',
 		phoneNumber: '503-538-1122'
 	},
 
 	{
 		name: 'Anderson Sewing Center',
-		address: '151 Victoria St Kamloops BC V2C 1Z4',
+		address: '151 Victoria St, Kamloops BC, V2C 1Z4',
 		phoneNumber: '250-374-1154'
 	},
 
 	{
 		name: 'Bearly Threaded Quilting',
-		address: '47027 Belmont Court Kenai AK 99611',
+		address: '47027 Belmont Court, Kenai, AK 99611',
 		phoneNumber: '907-631-8129'
 	},
 
 	{
 		name: "Bob's Sewing and Vacuum",
-		address: '3551 Hwy 528 NW Albequerque, NM 87114',
+		address: '3551 Hwy 528, NW Albequerque, NM 87114',
 		phoneNumber: '505-897-9782'
 	},
 
 	{
 		name: 'Electric Hospital',
-		address: '988 S Broadway Coos Bay, OR 97420',
+		address: '988 S Broadway, Coos Bay, OR 97420',
 		phoneNumber: '541-267-2241'
 	},
 
 	{
 		name: 'Floyd & Lizzies',
-		address: '2263 W. 7800 S., West Jordan, Ut 84088',
+		address: '2263 W. 7800 South, West Jordan, Ut 84088',
 		phoneNumber: '801-255-4130'
 	},
 
 	{
 		name: 'Oregon Quilt Woman',
-		address: '880 Railroad Ave Ontario OR 97914',
+		address: '880 Railroad Ave, Ontario OR 97914',
 		phoneNumber: '541-881-1160'
 	},
 
 	{
 		name: 'Pieced Together Studio',
-		address: '205 W Main Mesquite, TX 75149',
+		address: '205 W Main, Mesquite, TX 75149',
 		phoneNumber: '972-270-0961'
 	},
 
@@ -60,7 +60,7 @@ var dealers = [{
 
 	{
 		name: 'Pumpkin Ridge Quilting',
-		address: '101 S Main Hennessey, OK 73742',
+		address: '101 S Main, Hennessey, OK 73742',
 		phoneNumber: '1-740-596-2345'
 	},
 
