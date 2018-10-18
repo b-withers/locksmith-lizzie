@@ -10,9 +10,21 @@
 	z-index: 100;
 }
 
+td{
+	text-align: center;
+}
+
 
 .navbar{
 	margin-bottom: 10px;
+}
+
+a {
+	color: hotpink;
+}
+
+a:visited {
+	color: hotpink;
 }
 
 /* .footer{
@@ -58,9 +70,6 @@
 	color: white;
 }
 
-a:visited {
-	color: white;
-}
 
 
 html { 
