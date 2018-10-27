@@ -84,3 +84,7 @@ html {
 	bottom: 0;
 	background-color: gray;
 	}
+
+	.dealer-name{
+		cursor: pointer;
+	}

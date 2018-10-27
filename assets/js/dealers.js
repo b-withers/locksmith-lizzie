@@ -78,15 +78,27 @@ var dealers = [{
 
 ];
 
-var info = "<div class='container col-md-7 col-sm-7 col-lg-7' id='dealer-table'>  <table class ='table table-striped table-bordered table-hover'> <tr> <th class='text-center'>Name</th> <th class='text-center'>Address</th> <th class='text-center'>Phone Number</th> </tr> </div>";
 
-for (var i = 0; i < dealers.length; i++) {
-	info += "<tr><td class='dealer-name'>" + dealers[i].name + "</td><td>" + dealers[i].address + "</td><td>" + dealers[i].phoneNumber + "</td></tr>";
-}
+var html = "<table class='table table-striped table-bordered table-hover'>";
+    for (var i = 0; i < dealers.length; i++) {
+        html+="<tr>";
+        html+="<td class='dealer-name'>"+dealers[i].name+"</td>";
+        html+="<td class='dealer-address'>"+dealers[i].address+"</td>";
+        html+="<td class='dealer-phoneNumber'>"+dealers[i].phoneNumber+"</td>";
+        html+="</tr>";
+    }
+    html+="</table>";
+document.getElementById("dealer-table").innerHTML = html;
 
-info += "</table>";
+// var info = "<div class='container col-md-7 col-sm-7 col-lg-7' id='dealer-table'>  <table class ='table table-striped table-bordered table-hover'> <tr> <th class='text-center'>Name</th> <th class='text-center'>Address</th> <th class='text-center'>Phone Number</th> </tr> </div>";
 
-document.write(info);
+// for (var i = 0; i < dealers.length; i++) {
+// 	info += "<tr><td class='dealer-name'>" + dealers[i].name + "</td><td>" + dealers[i].address + "</td><td>" + dealers[i].phoneNumber + "</td></tr>";
+// }
+
+// info += "</table>";
+
+// document.write(info);
 
 var dealerscord = [{
 		name: "Above and Beyond",
