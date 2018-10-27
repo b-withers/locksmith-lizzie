@@ -88,3 +88,9 @@ html {
 	.dealer-name{
 		cursor: pointer;
 	}
+
+	.dealer-name:hover{
+		background-color: #a50064;
+		color: white;
+		/* font-weight: bold; */
+	}
