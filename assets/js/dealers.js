@@ -55,13 +55,13 @@ var dealers = [{
 	{
 		name: 'Prairie Quilts',
 		address: '118 W Main St, McArthur, OH 45651',
-		phoneNumber: '1-405-853-6801'
+		phoneNumber: '405-853-6801'
 	},
 
 	{
 		name: 'Pumpkin Ridge Quilting',
 		address: '101 S Main, Hennessey, OK 73742',
-		phoneNumber: '1-740-596-2345'
+		phoneNumber: '740-596-2345'
 	},
 
 	{
