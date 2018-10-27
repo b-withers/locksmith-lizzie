@@ -80,6 +80,7 @@ var dealers = [{
 
 
 var html = "<table class='table table-striped table-bordered table-hover'>";
+
 for (var i = 0; i < dealers.length; i++) {
 	html += "<tr>";
 	html += "<td class='dealer-name'>" + dealers[i].name + "</td>";
@@ -87,6 +88,7 @@ for (var i = 0; i < dealers.length; i++) {
 	html += "<td class='dealer-phoneNumber'>" + dealers[i].phoneNumber + "</td>";
 	html += "</tr>";
 }
+
 html += "</table>";
 document.getElementById("dealer-table").innerHTML = html;
 
