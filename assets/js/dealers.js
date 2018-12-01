@@ -76,6 +76,12 @@ var dealers = [{
 		phoneNumber: '406-453-4830'
 	},
 
+	{
+		name: 'S&R Sewing & Vacuum Center',
+		address: '723 Arcadia Circle, Huntsville, AL 35801',
+		phoneNumber: '256-536-5696'
+	},
+
 ];
 
 
@@ -201,6 +207,14 @@ var dealerscord = [{
 		cords: {
 			lat: 47.498208,
 			lng: -111.2669607
+		}
+	},
+
+	{
+		name: "S&R Sewing & Vacuum Center",
+		cords: {
+			lat: 34.7469759,
+			lng: -86.6011365
 		}
 	}
 
