@@ -18,7 +18,7 @@ var dealers = [{
 
 	{
 		name: 'Bearly Threaded Quilting',
-		address: '47027 Belmont Court, Kenai, AK 99611',
+		address: '44332 Sterling Highway, Suite 8, Soltdona, AK, 99669',
 		phoneNumber: '907-631-8129'
 	},
 
@@ -134,8 +134,8 @@ var dealerscord = [{
 	{
 		name: "Bearly Threaded Quilting",
 		cords: {
-			lat: 60.516219,
-			lng: -151.1472738
+			lat: 60.4843483,
+			lng: -151.0721138
 		}
 
 	}, {
