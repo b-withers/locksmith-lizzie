@@ -63,77 +63,10 @@
 				<!-- END MAIN NAVIGATION -->
 			</div>
 		</nav>
-		<!-- <div class="container">
-		<form id="contact-form" method="post" action="contact.php" role="form">
 
-			<div class="messages"></div>
-
-			<div class="controls">
-
-				<div class="row">
-					<div class="col-md-6">
-						<div class="form-group">
-							<label for="form_name">Firstname *</label>
-							<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *"
-							 required="required" data-error="Firstname is required.">
-							<div class="help-block with-errors"></div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="form-group">
-							<label for="form_lastname">Lastname *</label>
-							<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *"
-							 required="required" data-error="Lastname is required.">
-							<div class="help-block with-errors"></div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<div class="form-group">
-							<label for="form_email">Email *</label>
-							<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *"
-							 required="required" data-error="Valid email is required.">
-							<div class="help-block with-errors"></div>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="form-group">
-							<label for="form_need">Where was Machine Purchased</label>
-							<select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-								<option value=""></option>
-								<option value="Request quotation">Request quotation</option>
-								<option value="Request order status">Request order status</option>
-								<option value="Request copy of an invoice">Request copy of an invoice</option>
-								<option value="Other">Other</option>
-							</select>
-							<div class="help-block with-errors"></div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="form-group">
-							<label for="form_message">Message *</label>
-							<textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"
-							 data-error="Please, leave us a message."></textarea>
-							<div class="help-block with-errors"></div>
-						</div>
-					</div>
-					<div class="col-md-12">
-						<input type="submit" class="btn btn-success btn-send" value="Send message">
-					</div>
-				</div>
-				
-				
-
-			</div>
-
-		</form>
-		</div> -->
 
 		<!-- HERO UNIT -->
-		<section class="hero-unit-slider slider-responsive no-margin">
+		<!-- <section class="hero-unit-slider slider-responsive no-margin">
 			<div id="carousel-hero" class="slick-carousel">
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
@@ -155,7 +88,7 @@
 						<img src="../assets/img/header/header4.png" class="img-responsive" alt="Slider Image">
 						<div class="carousel-caption">
 							<h2 class="hero-heading">EMBRACE YOUR FAMILY AND FRIENDS WITH QUILTS FOR GENERATIONS</h2>
-							<!-- <p class="lead">Readable code, well documented and FREE support</p> -->
+							
 
 						</div>
 					</div>
@@ -171,51 +104,77 @@
 						<img src="../assets/img/header/header3.png" class="img-responsive" alt="Slider Image">
 						<div class="carousel-caption">
 							<h2 class="hero-heading">FOR THOSE WHO LOVE TO QUILT</h2>
-							<!-- <p class="lead">Readable code, well documented and FREE support</p> -->
+						
 						</div>
 					</div>
 
 
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<div class="container">
 
-<h1 class="text-center">Contact LockSmith Lizzie</h1>
-<p class="text-center">
+			<h1 class="text-center">Contact LockSmith Lizzie</h1>
+			<p class="text-center">
 
-If you are interested in the all new LockSmith Lizzie, please visit your local Master Dealer or send us an email that will unlock your quilting heart.
+				If you are interested in the all new LockSmith Lizzie, please visit your local Master Dealer or send us an email
+				that will unlock your quilting heart.
 
-</p>
-
-
+			</p>
 		</div>
 
-		<div class="container text-center">
+		<!-- <div class="container text-center">
 			<button type="button" class="btn btn-primary">
 			<a href="mailto:locksmithlizzie@gmail.com?subject=Mail from LockSmithLizzie.com&body=Name:%0D%0A
 			Phone Number: %0D%0A Question:" class="contactus">Contact Us</a>
 			</button>
 
+		</div> -->
 
+		<div class="container col-6">
 
-			<div class="containter">
 			<form method="POST" action="https://formspree.io/brady.withers@gmail.com">
-				<input type="email" name="email" placeholder="Your email">
-				<textarea name="message" placeholder="Test Message"></textarea>
-				<button type="submit">Send Test</button>
+
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Email address</label>
+					<input type="email" class="form-control" name="email" placeholder="Your Email">
+				</div>
+
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Email address</label>
+					<input type="name" class="form-control" name="name" placeholder="Your Name">
+				</div>
+
+
+				<div class="form-group">
+					<label for="exampleFormControlTextarea1">Your Message</label>
+					<textarea class="form-control" name="textarea" rows="3"></textarea>
+				</div>
+
+				<button type="submit">Send Message</button>
 			</form>
-			</div>
 
 		</div>
 
 
-		<!-- JAVASCRIPTS -->
-		<script src="../assets/js/jquery-2.1.1.min.js"></script>
-		<script src="../assets/js/bootstrap.min.js"></script>
-		<script src="../assets/js/plugins/slick/slick.min.js"></script>
-		<script src="../assets/js/plugins/stellar/jquery.stellar.min.js"></script>
-		<script src="../assets/js/plugins/jquery-easypiechart/jquery.easypiechart.min.js"></script>
-		<script src="../assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
-		<script src="../assets/js/repute-scripts.js"></script>
+		<!-- <div class="container form-group">
+			<form method="POST" action="https://formspree.io/brady.withers@gmail.com">
+				<input type="name" name="name" placeholder="Your Name">
+				<input type="email" name="email" placeholder="Your email">
+				<textarea name="message" placeholder="Test Message"></textarea>
+				<button type="submit">Send Test</button>
+			</form>
+		</div> -->
+
+	</div>
+
+</body>
+<!-- JAVASCRIPTS -->
+<script src="../assets/js/jquery-2.1.1.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/plugins/slick/slick.min.js"></script>
+<script src="../assets/js/plugins/stellar/jquery.stellar.min.js"></script>
+<script src="../assets/js/plugins/jquery-easypiechart/jquery.easypiechart.min.js"></script>
+<script src="../assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
+<script src="../assets/js/repute-scripts.js"></script>
