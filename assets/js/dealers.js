@@ -46,17 +46,17 @@ var dealers = [{
 		phoneNumber: '541-881-1160'
 	},
 
-	{
-		name: 'Pieced Together Studio',
-		address: '205 W Main, Mesquite, TX 75149',
-		phoneNumber: '972-270-0961'
-	},
+	// {
+	// 	name: 'Pieced Together Studio',
+	// 	address: '205 W Main, Mesquite, TX 75149',
+	// 	phoneNumber: '972-270-0961'
+	// },
 
-	{
-		name: 'Prairie Quilts',
-		address: '101 S Main, Hennessey, OK 73742',
-		phoneNumber: '405-853-6801'
-	},
+	// {
+	// 	name: 'Prairie Quilts',
+	// 	address: '101 S Main, Hennessey, OK 73742',
+	// 	phoneNumber: '405-853-6801'
+	// },
 
 	{
 		name: 'Pumpkin Ridge Quilting',
@@ -170,21 +170,21 @@ var dealerscord = [{
 		}
 	},
 
-	{
-		name: "Pieced Together Studio",
-		cords: {
-			lat: 32.767008,
-			lng: -96.6026727
-		}
-	},
+	// {
+	// 	name: "Pieced Together Studio",
+	// 	cords: {
+	// 		lat: 32.767008,
+	// 		lng: -96.6026727
+	// 	}
+	// },
 
-	{
-		name: "Prairie Quilts",
-		cords: {
-			lat: 36.109296,
-			lng: -97.9007437
-		}
-	},
+	// {
+	// 	name: "Prairie Quilts",
+	// 	cords: {
+	// 		lat: 36.109296,
+	// 		lng: -97.9007437
+	// 	}
+	// },
 
 	{
 		name: "Pumpkin Ridge Quilting",
