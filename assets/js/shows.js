@@ -35,3 +35,27 @@ for (var i = 0; i < shows.length; i++) {
 info += "</table>";
 
 document.write(info);
+
+var showscord = [
+	{
+	name: "Utah Quilting & Sewing Machine Marketplace",
+	cords: {
+		lat: 40.5779603,
+		lng: -111.8898461
+	}
+},
+	{
+	name: "Quiltfest Lancaster",
+	cords: {
+		lat: 40.0254098,
+		lng: -76.2157195
+	}
+},
+{
+	name: "World Quilt New England",
+	cords: {
+		lat: 42.1128192,
+		lng: -72.6163815
+	}
+}
+];

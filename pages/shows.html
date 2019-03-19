@@ -69,6 +69,7 @@
 
 		<script>
 			var map;
+			var marker = []
 
 			function initMap() {
 				map = new google.maps.Map(document.getElementById('map'), {
@@ -78,15 +79,19 @@
 					},
 					zoom: 3.0
 				});
+				for (var i = 0; i < showscord.length; i++) {
+					marker.push(new google.maps.Marker({
+						position: showscord[i].cords,
+						map: map,
+						title: showscord[i].name
+					}));
+				}
 			}
 		</script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWTbBCot-6Xu5wbRFp0xsXHbiIktoLGXw&callback=initMap"
 		 async defer></script>
 		 <script src="../assets/js/shows.js"></script>
-
-
-
-
+		 
 		<!-- JAVASCRIPTS -->
 
 		<script src="../assets/js/jquery-2.1.1.min.js"></script>
