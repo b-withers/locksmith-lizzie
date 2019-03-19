@@ -52,10 +52,24 @@ var showscord = [
 	}
 },
 {
+	name: "Vermont Quilt Fest",
+	cords: {
+		lat: 44.496469,
+		lng: -73.1253808
+	}
+},
+{
 	name: "World Quilt New England",
 	cords: {
 		lat: 42.1128192,
 		lng: -72.6163815
+	}
+},
+{
+	name: "Pennsylvania Quilt Extravaganza",
+	cords: {
+		lat: 40.1238039,
+		lng: -75.460306
 	}
 }
 ];

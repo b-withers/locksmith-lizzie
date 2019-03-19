@@ -64,6 +64,10 @@
 		</nav>
 		<div class="container">
 			<h1 class='text-center dealhead'>Upcoming Shows</h1>
+			<div class="container col-lg-12">
+				<button class="btn btn-primary" style="margin-bottom: 10px; background-color: #a50064; color: white; outline: none; border-color: #a50064;" id="clickMe" onclick="initMap();">Return to All Shows</button>
+				<br>
+			</div>
 			<div class="container col-md-5 col-sm-5" id="map"> </div>
 		
 
@@ -85,6 +89,12 @@
 						map: map,
 						title: showscord[i].name
 					}));
+				}
+				for (let i = 0; i < marker.length; i++) {
+					marker[i].addListener('click', function () {
+						map.setZoom(15);
+						map.setCenter(marker[i].getPosition());
+					});
 				}
 			}
 		</script>
