@@ -35,12 +35,6 @@ var dealers = [{
 	},
 
 	{
-		name: 'Floyd & Lizzies',
-		address: '2263 W. 7800 South, West Jordan, Ut 84088',
-		phoneNumber: '801-255-4130'
-	},
-
-	{
 		name: 'Oregon Quilt Woman',
 		address: '880 Railroad Ave, Ontario OR 97914',
 		phoneNumber: '541-881-1160'
@@ -151,14 +145,6 @@ var dealerscord = [{
 		cords: {
 			lat: 43.3582576,
 			lng: -124.2151345
-		}
-	},
-
-	{
-		name: "Floyd & Lizzies",
-		cords: {
-			lat: 40.6089684,
-			lng: -111.9518761
 		}
 	},
 
