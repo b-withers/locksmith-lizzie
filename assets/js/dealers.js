@@ -35,16 +35,18 @@ var dealers = [{
 	},
 
 	{
+		name: 'Floyds Sewing Repair',
+		address: '2263 West 7800 South, West Jordan, Ut 84088',
+		phoneNumber: '801-255-4130'
+	},
+
+	{
 		name: 'Oregon Quilt Woman',
 		address: '880 Railroad Ave, Ontario OR 97914',
 		phoneNumber: '541-881-1160'
 	},
 
-	// {
-	// 	name: 'Pieced Together Studio',
-	// 	address: '205 W Main, Mesquite, TX 75149',
-	// 	phoneNumber: '972-270-0961'
-	// },
+	
 
 	// {
 	// 	name: 'Prairie Quilts',
@@ -149,6 +151,14 @@ var dealerscord = [{
 	},
 
 	{
+		name: "Floyds Sewing Repair",
+		cords: {
+			lat: 40.6089643,
+			lng: -111.9518761
+		}
+	},
+
+	{
 		name: "Oregon Quilt Woman",
 		cords: {
 			lat: 44.001451,
@@ -156,13 +166,7 @@ var dealerscord = [{
 		}
 	},
 
-	// {
-	// 	name: "Pieced Together Studio",
-	// 	cords: {
-	// 		lat: 32.767008,
-	// 		lng: -96.6026727
-	// 	}
-	// },
+	
 
 	// {
 	// 	name: "Prairie Quilts",
