@@ -70,7 +70,13 @@ a:visited {
 	color: white;
 }
 
+.jumbotron{
+	background-color: white !important;
+}
 
+.mobile-only{
+	display: none;
+}
 
 html { 
 	height: 100%; 
@@ -93,4 +99,14 @@ html {
 		background-color: #a50064;
 		color: white;
 		/* font-weight: bold; */
+	}
+
+	@media (max-width: 600px) {
+		.desktop-only{
+			display: none;
+		}
+
+		.mobile-only{
+			display: block;
+		}
 	}
